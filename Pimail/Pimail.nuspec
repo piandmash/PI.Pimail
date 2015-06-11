@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PI.Pimail</id>
+    <version>$version$</version>
+    <title>Pi &amp; Mash Email Library</title>
+    <authors>Pete Cleary</authors>
+    <owners>Pi &amp; Mash</owners>
+    <projectUrl>https://github.com/piandmash/PI.Pimail</projectUrl>
+    <licenseUrl>https://github.com/piandmash/PI.Net.Http.Formatting.CsvFormatter/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.piandmash.com/assets/images/pi-orange-icon.png</iconUrl>
+    <summary>This package provides email storage and mail binding and merging facilities</summary>
+    <description>This package provides email storage using either XML file store or Entitiy Framework.  It also provides a robust and simple mail binding and merging facilities.</description>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.1.2" />
+    </dependencies>
+    <copyright>Copyright © 2015 Pi &amp; Mash</copyright>
+    <tags>Email EntityFramework</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\PI.Pimail.dll" target="lib" />
+  </files>
+</package>
